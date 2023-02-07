@@ -1,0 +1,37 @@
+{
+    "swagger": "2.0",
+    "swaggerDefinition": {
+        "info": {
+            "version": "1.0.0",
+            "title": "Node - CRUD",
+            "description": "Crud API Information",
+            "contact": {
+                "name": "Harith"
+            },
+            "license": {
+                "name": "MIT",
+                "url": "https://opensource.org/licenses/MIT"
+            }
+        },
+        "_host_": "http://localhost:8080",
+        "_basePath_": "/",
+        "tags": [
+            {
+                "name": "CRUD",
+                "description": "API's"
+            }
+        ],
+        "schemes": [
+            "http"
+        ],
+        "consumes": [
+            "application/json"
+        ],
+        "produces": [
+            "application/json"
+        ]
+    },
+    "apis": [
+        "swagger/*.js"
+    ]
+}
